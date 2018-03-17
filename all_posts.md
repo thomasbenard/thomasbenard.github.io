@@ -1,11 +1,11 @@
 ---
-layout:	default
+layout: default
 ---
 
-# Last Posts
+# Post History
 
 <ul>
-  {% for post in site.posts limit:10 %}
+  {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
       <br/><em>{{ post.date | date: "%-d %B %Y" }}</em>

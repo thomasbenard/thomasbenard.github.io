@@ -1,1 +1,16 @@
+title: The Way of the Craftsman 
+description: >- 
+        A blog about Clean Code and Test-Driven Development among other stuff
+        <hr>
+        Hello, World ! I'm Thomas Bénard, a Software Craftsman working at <a href="www.benextcompany.com">beNext</a><br/>
+        <a href="mailto:m.thomas.benard@protonmail.com"><img src="/assets/Email-Icon.png"/></a> <a href="twitter.com/thomasbenarddev"><img src="/assets/Twitter.png"/></a> <a href="https://www.linkedin.com/in/thomas-benard-15994aa7/"><img src="/assets/Linkedin.png"/></a>
+        <hr>
+        <a href="/">Home Page</a><br/>
+        <a href="all_posts">All posts</a>
+
+
+# Build settings
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+
