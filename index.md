@@ -1,5 +1,6 @@
 ---
 layout:	default
+title: The Way of the Craftsman
 ---
 
 # Last Posts
