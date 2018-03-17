@@ -8,6 +8,7 @@ description: >-
         <a href="/">Home Page</a><br/>
         <a href="all_posts">All posts</a>
 
+github: https://github.com/thomasbenard/thomasbenard.github.io
 
 # Build settings
 theme: jekyll-theme-minimal
