@@ -9,6 +9,7 @@ excerpt: Unit testing is hard. Particularly when working with legacy code. Here 
 ---
 
 # {{ page.title }}
+_{{ page.date | date: "%-d %B %Y" }}_
 
 Unit testing is hard. Particularly when working with legacy code.  
 Very often, the code we need to work on is highly coupled with libraries, frameworks or even other parts of our own code, which makes it virtually untestable without first refactoring it.  

@@ -2,13 +2,14 @@
 layout: default
 title: "Can programmers have negative productivity ?"
 date: 2018-01-18 07:36:22.000000000 +01:00
-type: post
+published: true
 categories: []
 tags: []
 excerpt: All to often, we think we have moved a little bit farther every time we move a sticky note to the "Done" column. And what if we had actually moved backward ?
 ---
 
 # {{ page.title }}
+_{{ page.date | date: "%-d %B %Y" }}_
 
 > "Time spent on cleaning the code is wasted ! We could instead spend this time working on some user stories, let's be productive !"
 

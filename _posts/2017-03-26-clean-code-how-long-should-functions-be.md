@@ -7,7 +7,9 @@ categories: []
 tags: []
 excerpt: We almost all agree that functions should be small. Big functions are hard to maintain, hard to test, hard to name, hard to call. They simply are hard to work with. But how small exactly ?
 ---
+
 # {{ page.title }}
+_{{ page.date | date: "%-d %B %Y" }}_
 
 > The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that.
 > 

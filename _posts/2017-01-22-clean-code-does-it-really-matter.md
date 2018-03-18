@@ -10,6 +10,7 @@ excerpt: Have you ever met code that was so opaque that it took you hours to und
 ---
 
 # {{ page.title }}
+_{{ page.date | date: "%-d %B %Y" }}_
 
 {{ page.excerpt }}
 
