@@ -36,7 +36,7 @@ Let's take an example. Consider the two following functions:
 ```java
 public class UserDescription {
     // ...
-    public int isLongEnough() {
+    public bool isLongEnough() {
         String words[] = description.split(' ');
         int numberOfWords = words.length;
         return numberOfWords > 10;
@@ -48,7 +48,7 @@ Here the function `isLongEnough` checks that this UserDescription has at least 1
 ```java
 public class RemoteApiResponse {
     // ...
-    public int containsEnoughElements() {
+    public bool containsEnoughElements() {
         String elements[] = description.split(' ');
         int numberOfElements = elements.length;
         return numberOfElements > 10;
